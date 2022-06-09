@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int numeroIf = 0;
         int numeroWhile = -3;
+        int numeroDoWhile = -3;
 
         System.out.println("---------------IF ELSE------------");
         if(numeroIf > 0){
@@ -19,6 +20,12 @@ public class Main {
             System.out.println(numeroWhile);
             numeroWhile += 1;
         }
+
+        System.out.println("---------------DO WHILE------------");
+        do{
+            System.out.println(numeroDoWhile);
+            numeroDoWhile += 1;
+        }while(numeroDoWhile < 3);
 
 
     }
