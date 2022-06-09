@@ -6,6 +6,7 @@ public class Main {
         int numeroWhile = -3;
         int numeroDoWhile = -3;
         int numeroFor = 0;
+        var estacion = "VERANO";
 
         System.out.println("---------------IF ELSE------------");
         if(numeroIf > 0){
@@ -32,6 +33,18 @@ public class Main {
         for (int i = 0; numeroFor <= 3; i++){
             numeroFor += 1;
             System.out.println("Iteración for: " + numeroFor);
+        }
+
+        System.out.println("-------------SWITCH--------------");
+        switch(estacion) {
+            case "VERANO":
+                System.out.println("Es verano");
+                break;
+            case "INVIERNO":
+                System.out.println("Es invierno");
+                break;
+            default:
+                System.out.println("Estoy en default");
         }
     }
 }
