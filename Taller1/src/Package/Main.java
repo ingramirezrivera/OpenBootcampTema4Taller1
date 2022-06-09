@@ -5,6 +5,7 @@ public class Main {
         int numeroIf = 0;
         int numeroWhile = -3;
         int numeroDoWhile = -3;
+        int numeroFor = 0;
 
         System.out.println("---------------IF ELSE------------");
         if(numeroIf > 0){
@@ -27,6 +28,10 @@ public class Main {
             numeroDoWhile += 1;
         }while(numeroDoWhile < 3);
 
-
+        System.out.println("-------------FOR--------------");
+        for (int i = 0; numeroFor <= 3; i++){
+            numeroFor += 1;
+            System.out.println("Iteración for: " + numeroFor);
+        }
     }
 }
